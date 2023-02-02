@@ -1,4 +1,4 @@
-import type { Translation } from '../i18n-types.js'
+import type { Translation } from '../i18n-types.ts'
 
 const de: Translation = {
     CHOOSE_LOCALE: 'Sprache auswählen...',

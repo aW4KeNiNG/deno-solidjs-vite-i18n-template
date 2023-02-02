@@ -1,4 +1,4 @@
-import type { BaseTranslation } from '../i18n-types.js'
+import type { BaseTranslation } from '../i18n-types.ts'
 
 const en: BaseTranslation = {
     CHOOSE_LOCALE: 'choose locale...',

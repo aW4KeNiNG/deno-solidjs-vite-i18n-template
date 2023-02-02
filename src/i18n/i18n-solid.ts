@@ -2,8 +2,8 @@
 /* eslint-disable */
 
 import { initI18nSolid } from 'typesafe-i18n/solid'
-import type { Formatters, Locales, TranslationFunctions, Translations } from './i18n-types.js'
-import { loadedFormatters, loadedLocales } from './i18n-util.js'
+import type { Formatters, Locales, TranslationFunctions, Translations } from './i18n-types.ts'
+import { loadedFormatters, loadedLocales } from './i18n-util.ts'
 
 const { TypesafeI18n, useI18nContext } = initI18nSolid<Locales, Translations, TranslationFunctions, Formatters>(loadedLocales, loadedFormatters)
 

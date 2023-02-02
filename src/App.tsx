@@ -1,9 +1,9 @@
 import { createEffect, createSignal, Show } from 'solid-js'
 import { localStorageDetector } from 'typesafe-i18n/detectors'
-import Child from './Child'
-import TypesafeI18n from './i18n/i18n-solid'
-import { detectLocale } from './i18n/i18n-util'
-import { loadLocaleAsync } from './i18n/i18n-util.async'
+import Child from './Child.tsx'
+import TypesafeI18n from './i18n/i18n-solid.ts'
+import { detectLocale } from './i18n/i18n-util.ts'
+import { loadLocaleAsync } from './i18n/i18n-util.async.ts'
 
 const detectedLocale = detectLocale(localStorageDetector)
 

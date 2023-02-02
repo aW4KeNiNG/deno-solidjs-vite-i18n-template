@@ -1,9 +1,9 @@
 import { createSignal, JSX } from 'solid-js'
 import './App.css'
-import { useI18nContext } from './i18n/i18n-solid'
-import type { Locales } from './i18n/i18n-types'
-import { locales } from './i18n/i18n-util'
-import { loadLocaleAsync } from './i18n/i18n-util.async'
+import { useI18nContext } from './i18n/i18n-solid.ts'
+import type { Locales } from './i18n/i18n-types.ts'
+import { locales } from './i18n/i18n-util.ts'
+import { loadLocaleAsync } from './i18n/i18n-util.async.ts'
 import logo from './logo.svg'
 
 function Child() {
