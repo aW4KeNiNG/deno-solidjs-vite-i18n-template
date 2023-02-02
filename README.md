@@ -1,0 +1,1 @@
+# Deno + Vite + Solidjs + typesafe-i18n
