@@ -1,0 +1,10 @@
+{
+	"imports": {
+        "esbuild": "npm:esbuild@^0.17.5",
+        "esbuild_deno_loader": "https://deno.land/x/esbuild_deno_loader@0.6.0/mod.ts",
+		"typesafe-i18n": "npm:typesafe-i18n",
+		"typesafe-i18n/": "npm:/typesafe-i18n/",
+		"solid-js": "npm:solid-js@^1.6.9",
+		"solid-js/": "npm:/solid-js@^1.6.9/"
+	}
+}

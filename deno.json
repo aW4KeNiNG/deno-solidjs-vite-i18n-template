@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"dom.asynciterable",
+			"deno.ns"
+		],
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js"
+	},
+	"importMap": "import_map.json",
+	"tasks": {
+        "dev": "deno task dev:vite & deno task dev:i18n",
+		"dev:vite": "deno run -A --node-modules-dir npm:vite",
+		"dev:i18n": "deno run -A --node-modules-dir npm:typesafe-i18n"
+	}
+}
